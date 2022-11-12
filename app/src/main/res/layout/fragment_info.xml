@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Туберкулин"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    Туберкулин — экстрат белков, полученных из микобактерий туберкулёза.\n    Данный экстрат впервые был получен в 1890 году Робертом Кохом, первооткрывателем возбудителя туберкулёза, который видел в нём средство профилактики туберкулёза. Массовая вакцинация неиспытанным препаратом и последовавшие случаи смерти привели к туберкулиновому скандалу. Патологоанатом Рудольф Вирхов, при вскрытии трупов показал, что туберкулин не только не убивал бактерии, но даже наоборот, активировал латентные бактерии. Производство туберкулина было остановлено.\n    Второе рождение туберкулин получил в 1907 году, когда австрийский педиатр Клеменс Пирке догадался использовать его в качестве диагностического инструмента. Через год французский медик Шарль Манту так же предложил применять туберкулин внутрикожно с диагностической целью.\n    Туберкулин Коха, часто именуемый как АТК (нем. Alt Tuberculin Koch, старый туберкулин Коха), получают из штаммов Mycobacterium tuberculosis, выращенных на глицериновом пептонном бульоне путем выпаривания и фильтрации. Старый туберкулин продавался на рынке до 1970 года, а в самой Германии использовался вплоть до 2004 года для внутреннего контроля производства туберкулина PPD."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
